@@ -7,9 +7,14 @@ layout: "layout.njk"
   <input type="text" id="searchInput" placeholder="Search for cars (e.g., Toyota, SUV)...">
 </div>
 
+<div class="pagination-controls">
+  <button id="prevButton" disabled>← Previous</button>
+  <span id="pageInfo">Page 1 of 9</span>
+  <button id="nextButton">Next →</button>
+</div>
+
 <div class="card-grid" id="carGrid">
-  {# Loop through our car data from _data/cars.json #}
-  {# The data is available at cars.cars because our JSON has a root "cars" key #}
+  {# The Nunjucks loop remains the same. We still generate all 100 cards. #}
   {% for car in cars.cars %}
     <a href="/cars/{{ car.id }}/" class="card" data-search-term="{{ car.make | lower }} {{ car.model | lower }} {{ car.year }}">
       <img src="{{ car.image_url }}" alt="{{ car.make }} {{ car.model }}">
