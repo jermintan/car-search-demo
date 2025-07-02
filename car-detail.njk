@@ -1,0 +1,22 @@
+---
+# This is Eleventy's pagination feature. We're "paginating" our data one by one.
+pagination:
+  data: cars.cars  # Use the car data array
+  size: 1          # Create one page per item
+  alias: car       # The variable name for the current item will be "car"
+# This sets the URL for each generated page. E.g., /cars/1/, /cars/2/, etc.
+permalink: "/cars/{{ car.id }}/index.html"
+layout: "layout.njk"
+# Use a dynamic title for each page
+title: "{{ car.year }} {{ car.make }} {{ car.model }}"
+---
+
+<div class="car-detail">
+  <img src="{{ car.image_url }}" alt="{{ car.make }} {{ car.model }}">
+  <div class="car-info">
+    <h1>{{ car.year }} {{ car.make }} {{ car.model }}</h1>
+    <span class="price">${{ car.price.toLocaleString() }}</span>
+    <p>{{ car.long_description }}</p>
+    <a href="/" class="back-button">← Back to all cars</a>
+  </div>
+</div>

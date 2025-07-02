@@ -1,0 +1,25 @@
+<!-- _includes/layout.njk -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Car Search Demo" }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">Car Search Demo</a></h1>
+      <p>A simple demo using 11ty and Cloudflare R2</p>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <p>Built with Eleventy & ❤️</p>
+    </footer>
+  </div>
+  <script src="/js/search.js"></script>
+</body>
+</html>

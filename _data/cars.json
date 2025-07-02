@@ -1,0 +1,1004 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Audi",
+      "model": "Hatchback",
+      "year": 2013,
+      "price": 33543,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Hatchback",
+      "short_description": "A reliable and stylish 2013 Audi Hatchback.",
+      "long_description": "This 2013 Audi Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $33,543, it's a fantastic deal."
+    },
+    {
+      "id": 2,
+      "make": "Hyundai",
+      "model": "Sedan",
+      "year": 2016,
+      "price": 10294,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan",
+      "short_description": "A reliable and stylish 2016 Hyundai Sedan.",
+      "long_description": "This 2016 Hyundai Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $10,294, it's a fantastic deal."
+    },
+    {
+      "id": 3,
+      "make": "Hyundai",
+      "model": "Hatchback",
+      "year": 2016,
+      "price": 42123,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback",
+      "short_description": "A reliable and stylish 2016 Hyundai Hatchback.",
+      "long_description": "This 2016 Hyundai Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,123, it's a fantastic deal."
+    },
+    {
+      "id": 4,
+      "make": "Chevrolet",
+      "model": "Minivan",
+      "year": 2018,
+      "price": 28705,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan",
+      "short_description": "A reliable and stylish 2018 Chevrolet Minivan.",
+      "long_description": "This 2018 Chevrolet Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $28,705, it's a fantastic deal."
+    },
+    {
+      "id": 5,
+      "make": "Nissan",
+      "model": "Hatchback",
+      "year": 2017,
+      "price": 42543,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback",
+      "short_description": "A reliable and stylish 2017 Nissan Hatchback.",
+      "long_description": "This 2017 Nissan Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,543, it's a fantastic deal."
+    },
+    {
+      "id": 6,
+      "make": "Mercedes-Benz",
+      "model": "Minivan",
+      "year": 2011,
+      "price": 45723,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Minivan",
+      "short_description": "A reliable and stylish 2011 Mercedes-Benz Minivan.",
+      "long_description": "This 2011 Mercedes-Benz Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $45,723, it's a fantastic deal."
+    },
+    {
+      "id": 7,
+      "make": "Chevrolet",
+      "model": "Hatchback",
+      "year": 2019,
+      "price": 13925,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback",
+      "short_description": "A reliable and stylish 2019 Chevrolet Hatchback.",
+      "long_description": "This 2019 Chevrolet Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $13,925, it's a fantastic deal."
+    },
+    {
+      "id": 8,
+      "make": "Toyota",
+      "model": "Coupe",
+      "year": 2010,
+      "price": 24308,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Coupe",
+      "short_description": "A reliable and stylish 2010 Toyota Coupe.",
+      "long_description": "This 2010 Toyota Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $24,308, it's a fantastic deal."
+    },
+    {
+      "id": 9,
+      "make": "Nissan",
+      "model": "Hatchback",
+      "year": 2016,
+      "price": 16482,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback",
+      "short_description": "A reliable and stylish 2016 Nissan Hatchback.",
+      "long_description": "This 2016 Nissan Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $16,482, it's a fantastic deal."
+    },
+    {
+      "id": 10,
+      "make": "Audi",
+      "model": "Sedan",
+      "year": 2022,
+      "price": 27684,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Sedan",
+      "short_description": "A reliable and stylish 2022 Audi Sedan.",
+      "long_description": "This 2022 Audi Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $27,684, it's a fantastic deal."
+    },
+    {
+      "id": 11,
+      "make": "BMW",
+      "model": "Coupe",
+      "year": 2010,
+      "price": 21108,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20Coupe",
+      "short_description": "A reliable and stylish 2010 BMW Coupe.",
+      "long_description": "This 2010 BMW Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $21,108, it's a fantastic deal."
+    },
+    {
+      "id": 12,
+      "make": "Toyota",
+      "model": "Sedan",
+      "year": 2020,
+      "price": 32257,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Sedan",
+      "short_description": "A reliable and stylish 2020 Toyota Sedan.",
+      "long_description": "This 2020 Toyota Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $32,257, it's a fantastic deal."
+    },
+    {
+      "id": 13,
+      "make": "Audi",
+      "model": "Coupe",
+      "year": 2021,
+      "price": 36227,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Coupe",
+      "short_description": "A reliable and stylish 2021 Audi Coupe.",
+      "long_description": "This 2021 Audi Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $36,227, it's a fantastic deal."
+    },
+    {
+      "id": 14,
+      "make": "Nissan",
+      "model": "SUV",
+      "year": 2023,
+      "price": 39679,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20SUV",
+      "short_description": "A reliable and stylish 2023 Nissan SUV.",
+      "long_description": "This 2023 Nissan SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $39,679, it's a fantastic deal."
+    },
+    {
+      "id": 15,
+      "make": "Chevrolet",
+      "model": "Hatchback",
+      "year": 2013,
+      "price": 38613,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback",
+      "short_description": "A reliable and stylish 2013 Chevrolet Hatchback.",
+      "long_description": "This 2013 Chevrolet Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $38,613, it's a fantastic deal."
+    },
+    {
+      "id": 16,
+      "make": "Mercedes-Benz",
+      "model": "SUV",
+      "year": 2015,
+      "price": 15914,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20SUV",
+      "short_description": "A reliable and stylish 2015 Mercedes-Benz SUV.",
+      "long_description": "This 2015 Mercedes-Benz SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $15,914, it's a fantastic deal."
+    },
+    {
+      "id": 17,
+      "make": "Chevrolet",
+      "model": "Minivan",
+      "year": 2018,
+      "price": 47276,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan",
+      "short_description": "A reliable and stylish 2018 Chevrolet Minivan.",
+      "long_description": "This 2018 Chevrolet Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $47,276, it's a fantastic deal."
+    },
+    {
+      "id": 18,
+      "make": "Toyota",
+      "model": "Truck",
+      "year": 2014,
+      "price": 43790,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Truck",
+      "short_description": "A reliable and stylish 2014 Toyota Truck.",
+      "long_description": "This 2014 Toyota Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $43,790, it's a fantastic deal."
+    },
+    {
+      "id": 19,
+      "make": "Nissan",
+      "model": "Sports Car",
+      "year": 2013,
+      "price": 10327,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car",
+      "short_description": "A reliable and stylish 2013 Nissan Sports Car.",
+      "long_description": "This 2013 Nissan Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $10,327, it's a fantastic deal."
+    },
+    {
+      "id": 20,
+      "make": "BMW",
+      "model": "SUV",
+      "year": 2020,
+      "price": 41082,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20SUV",
+      "short_description": "A reliable and stylish 2020 BMW SUV.",
+      "long_description": "This 2020 BMW SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $41,082, it's a fantastic deal."
+    },
+    {
+      "id": 21,
+      "make": "Toyota",
+      "model": "Sports Car",
+      "year": 2021,
+      "price": 25306,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Sports%20Car",
+      "short_description": "A reliable and stylish 2021 Toyota Sports Car.",
+      "long_description": "This 2021 Toyota Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $25,306, it's a fantastic deal."
+    },
+    {
+      "id": 22,
+      "make": "Honda",
+      "model": "Truck",
+      "year": 2020,
+      "price": 22629,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Truck",
+      "short_description": "A reliable and stylish 2020 Honda Truck.",
+      "long_description": "This 2020 Honda Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $22,629, it's a fantastic deal."
+    },
+    {
+      "id": 23,
+      "make": "Honda",
+      "model": "Sports Car",
+      "year": 2016,
+      "price": 17788,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car",
+      "short_description": "A reliable and stylish 2016 Honda Sports Car.",
+      "long_description": "This 2016 Honda Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $17,788, it's a fantastic deal."
+    },
+    {
+      "id": 24,
+      "make": "Kia",
+      "model": "Hatchback",
+      "year": 2018,
+      "price": 28958,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20Hatchback",
+      "short_description": "A reliable and stylish 2018 Kia Hatchback.",
+      "long_description": "This 2018 Kia Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $28,958, it's a fantastic deal."
+    },
+    {
+      "id": 25,
+      "make": "Ford",
+      "model": "Coupe",
+      "year": 2013,
+      "price": 16097,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Coupe",
+      "short_description": "A reliable and stylish 2013 Ford Coupe.",
+      "long_description": "This 2013 Ford Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $16,097, it's a fantastic deal."
+    },
+    {
+      "id": 26,
+      "make": "Ford",
+      "model": "Coupe",
+      "year": 2018,
+      "price": 12999,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Coupe",
+      "short_description": "A reliable and stylish 2018 Ford Coupe.",
+      "long_description": "This 2018 Ford Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,999, it's a fantastic deal."
+    },
+    {
+      "id": 27,
+      "make": "Chevrolet",
+      "model": "Minivan",
+      "year": 2011,
+      "price": 12452,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan",
+      "short_description": "A reliable and stylish 2011 Chevrolet Minivan.",
+      "long_description": "This 2011 Chevrolet Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,452, it's a fantastic deal."
+    },
+    {
+      "id": 28,
+      "make": "Ford",
+      "model": "Truck",
+      "year": 2012,
+      "price": 42549,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Truck",
+      "short_description": "A reliable and stylish 2012 Ford Truck.",
+      "long_description": "This 2012 Ford Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,549, it's a fantastic deal."
+    },
+    {
+      "id": 29,
+      "make": "Mercedes-Benz",
+      "model": "Truck",
+      "year": 2010,
+      "price": 17376,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck",
+      "short_description": "A reliable and stylish 2010 Mercedes-Benz Truck.",
+      "long_description": "This 2010 Mercedes-Benz Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $17,376, it's a fantastic deal."
+    },
+    {
+      "id": 30,
+      "make": "Ford",
+      "model": "Coupe",
+      "year": 2015,
+      "price": 32850,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Coupe",
+      "short_description": "A reliable and stylish 2015 Ford Coupe.",
+      "long_description": "This 2015 Ford Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $32,850, it's a fantastic deal."
+    },
+    {
+      "id": 31,
+      "make": "Toyota",
+      "model": "SUV",
+      "year": 2011,
+      "price": 10458,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20SUV",
+      "short_description": "A reliable and stylish 2011 Toyota SUV.",
+      "long_description": "This 2011 Toyota SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $10,458, it's a fantastic deal."
+    },
+    {
+      "id": 32,
+      "make": "Chevrolet",
+      "model": "Convertible",
+      "year": 2020,
+      "price": 49034,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Convertible",
+      "short_description": "A reliable and stylish 2020 Chevrolet Convertible.",
+      "long_description": "This 2020 Chevrolet Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $49,034, it's a fantastic deal."
+    },
+    {
+      "id": 33,
+      "make": "Hyundai",
+      "model": "Convertible",
+      "year": 2023,
+      "price": 33988,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible",
+      "short_description": "A reliable and stylish 2023 Hyundai Convertible.",
+      "long_description": "This 2023 Hyundai Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $33,988, it's a fantastic deal."
+    },
+    {
+      "id": 34,
+      "make": "Mercedes-Benz",
+      "model": "Convertible",
+      "year": 2022,
+      "price": 14683,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Convertible",
+      "short_description": "A reliable and stylish 2022 Mercedes-Benz Convertible.",
+      "long_description": "This 2022 Mercedes-Benz Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $14,683, it's a fantastic deal."
+    },
+    {
+      "id": 35,
+      "make": "Chevrolet",
+      "model": "Minivan",
+      "year": 2014,
+      "price": 42296,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan",
+      "short_description": "A reliable and stylish 2014 Chevrolet Minivan.",
+      "long_description": "This 2014 Chevrolet Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,296, it's a fantastic deal."
+    },
+    {
+      "id": 36,
+      "make": "Ford",
+      "model": "Convertible",
+      "year": 2016,
+      "price": 33797,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Convertible",
+      "short_description": "A reliable and stylish 2016 Ford Convertible.",
+      "long_description": "This 2016 Ford Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $33,797, it's a fantastic deal."
+    },
+    {
+      "id": 37,
+      "make": "Mercedes-Benz",
+      "model": "Truck",
+      "year": 2023,
+      "price": 31341,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck",
+      "short_description": "A reliable and stylish 2023 Mercedes-Benz Truck.",
+      "long_description": "This 2023 Mercedes-Benz Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $31,341, it's a fantastic deal."
+    },
+    {
+      "id": 38,
+      "make": "Audi",
+      "model": "Truck",
+      "year": 2010,
+      "price": 23044,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Truck",
+      "short_description": "A reliable and stylish 2010 Audi Truck.",
+      "long_description": "This 2010 Audi Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $23,044, it's a fantastic deal."
+    },
+    {
+      "id": 39,
+      "make": "Honda",
+      "model": "Convertible",
+      "year": 2013,
+      "price": 36560,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Convertible",
+      "short_description": "A reliable and stylish 2013 Honda Convertible.",
+      "long_description": "This 2013 Honda Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $36,560, it's a fantastic deal."
+    },
+    {
+      "id": 40,
+      "make": "Chevrolet",
+      "model": "Sports Car",
+      "year": 2022,
+      "price": 26260,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sports%20Car",
+      "short_description": "A reliable and stylish 2022 Chevrolet Sports Car.",
+      "long_description": "This 2022 Chevrolet Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $26,260, it's a fantastic deal."
+    },
+    {
+      "id": 41,
+      "make": "Audi",
+      "model": "Convertible",
+      "year": 2019,
+      "price": 47961,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Convertible",
+      "short_description": "A reliable and stylish 2019 Audi Convertible.",
+      "long_description": "This 2019 Audi Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $47,961, it's a fantastic deal."
+    },
+    {
+      "id": 42,
+      "make": "Kia",
+      "model": "SUV",
+      "year": 2013,
+      "price": 10492,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20SUV",
+      "short_description": "A reliable and stylish 2013 Kia SUV.",
+      "long_description": "This 2013 Kia SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $10,492, it's a fantastic deal."
+    },
+    {
+      "id": 43,
+      "make": "Mercedes-Benz",
+      "model": "Sedan",
+      "year": 2011,
+      "price": 12655,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Sedan",
+      "short_description": "A reliable and stylish 2011 Mercedes-Benz Sedan.",
+      "long_description": "This 2011 Mercedes-Benz Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,655, it's a fantastic deal."
+    },
+    {
+      "id": 44,
+      "make": "Toyota",
+      "model": "Sports Car",
+      "year": 2017,
+      "price": 43147,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Sports%20Car",
+      "short_description": "A reliable and stylish 2017 Toyota Sports Car.",
+      "long_description": "This 2017 Toyota Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $43,147, it's a fantastic deal."
+    },
+    {
+      "id": 45,
+      "make": "Mercedes-Benz",
+      "model": "Coupe",
+      "year": 2022,
+      "price": 11377,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Coupe",
+      "short_description": "A reliable and stylish 2022 Mercedes-Benz Coupe.",
+      "long_description": "This 2022 Mercedes-Benz Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $11,377, it's a fantastic deal."
+    },
+    {
+      "id": 46,
+      "make": "Chevrolet",
+      "model": "Coupe",
+      "year": 2017,
+      "price": 14293,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Coupe",
+      "short_description": "A reliable and stylish 2017 Chevrolet Coupe.",
+      "long_description": "This 2017 Chevrolet Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $14,293, it's a fantastic deal."
+    },
+    {
+      "id": 47,
+      "make": "Mercedes-Benz",
+      "model": "Truck",
+      "year": 2020,
+      "price": 36227,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck",
+      "short_description": "A reliable and stylish 2020 Mercedes-Benz Truck.",
+      "long_description": "This 2020 Mercedes-Benz Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $36,227, it's a fantastic deal."
+    },
+    {
+      "id": 48,
+      "make": "Honda",
+      "model": "Sports Car",
+      "year": 2021,
+      "price": 26213,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car",
+      "short_description": "A reliable and stylish 2021 Honda Sports Car.",
+      "long_description": "This 2021 Honda Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $26,213, it's a fantastic deal."
+    },
+    {
+      "id": 49,
+      "make": "Chevrolet",
+      "model": "Sedan",
+      "year": 2021,
+      "price": 28476,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sedan",
+      "short_description": "A reliable and stylish 2021 Chevrolet Sedan.",
+      "long_description": "This 2021 Chevrolet Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $28,476, it's a fantastic deal."
+    },
+    {
+      "id": 50,
+      "make": "BMW",
+      "model": "Sedan",
+      "year": 2010,
+      "price": 46282,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20Sedan",
+      "short_description": "A reliable and stylish 2010 BMW Sedan.",
+      "long_description": "This 2010 BMW Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $46,282, it's a fantastic deal."
+    },
+    {
+      "id": 51,
+      "make": "Chevrolet",
+      "model": "Hatchback",
+      "year": 2014,
+      "price": 14702,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback",
+      "short_description": "A reliable and stylish 2014 Chevrolet Hatchback.",
+      "long_description": "This 2014 Chevrolet Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $14,702, it's a fantastic deal."
+    },
+    {
+      "id": 52,
+      "make": "Hyundai",
+      "model": "Coupe",
+      "year": 2012,
+      "price": 41233,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Coupe",
+      "short_description": "A reliable and stylish 2012 Hyundai Coupe.",
+      "long_description": "This 2012 Hyundai Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $41,233, it's a fantastic deal."
+    },
+    {
+      "id": 53,
+      "make": "Ford",
+      "model": "Convertible",
+      "year": 2021,
+      "price": 11178,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Convertible",
+      "short_description": "A reliable and stylish 2021 Ford Convertible.",
+      "long_description": "This 2021 Ford Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $11,178, it's a fantastic deal."
+    },
+    {
+      "id": 54,
+      "make": "Honda",
+      "model": "Sports Car",
+      "year": 2011,
+      "price": 27536,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car",
+      "short_description": "A reliable and stylish 2011 Honda Sports Car.",
+      "long_description": "This 2011 Honda Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $27,536, it's a fantastic deal."
+    },
+    {
+      "id": 55,
+      "make": "Ford",
+      "model": "Truck",
+      "year": 2022,
+      "price": 44950,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Truck",
+      "short_description": "A reliable and stylish 2022 Ford Truck.",
+      "long_description": "This 2022 Ford Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $44,950, it's a fantastic deal."
+    },
+    {
+      "id": 56,
+      "make": "Kia",
+      "model": "Truck",
+      "year": 2010,
+      "price": 38427,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20Truck",
+      "short_description": "A reliable and stylish 2010 Kia Truck.",
+      "long_description": "This 2010 Kia Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $38,427, it's a fantastic deal."
+    },
+    {
+      "id": 57,
+      "make": "Kia",
+      "model": "Minivan",
+      "year": 2018,
+      "price": 12257,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20Minivan",
+      "short_description": "A reliable and stylish 2018 Kia Minivan.",
+      "long_description": "This 2018 Kia Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,257, it's a fantastic deal."
+    },
+    {
+      "id": 58,
+      "make": "Chevrolet",
+      "model": "Sports Car",
+      "year": 2012,
+      "price": 25117,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sports%20Car",
+      "short_description": "A reliable and stylish 2012 Chevrolet Sports Car.",
+      "long_description": "This 2012 Chevrolet Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $25,117, it's a fantastic deal."
+    },
+    {
+      "id": 59,
+      "make": "Hyundai",
+      "model": "Convertible",
+      "year": 2015,
+      "price": 40137,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible",
+      "short_description": "A reliable and stylish 2015 Hyundai Convertible.",
+      "long_description": "This 2015 Hyundai Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $40,137, it's a fantastic deal."
+    },
+    {
+      "id": 60,
+      "make": "Hyundai",
+      "model": "Convertible",
+      "year": 2021,
+      "price": 38424,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible",
+      "short_description": "A reliable and stylish 2021 Hyundai Convertible.",
+      "long_description": "This 2021 Hyundai Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $38,424, it's a fantastic deal."
+    },
+    {
+      "id": 61,
+      "make": "Hyundai",
+      "model": "Hatchback",
+      "year": 2011,
+      "price": 33448,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback",
+      "short_description": "A reliable and stylish 2011 Hyundai Hatchback.",
+      "long_description": "This 2011 Hyundai Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $33,448, it's a fantastic deal."
+    },
+    {
+      "id": 62,
+      "make": "Hyundai",
+      "model": "Convertible",
+      "year": 2012,
+      "price": 26769,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible",
+      "short_description": "A reliable and stylish 2012 Hyundai Convertible.",
+      "long_description": "This 2012 Hyundai Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $26,769, it's a fantastic deal."
+    },
+    {
+      "id": 63,
+      "make": "Nissan",
+      "model": "Hatchback",
+      "year": 2021,
+      "price": 29077,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback",
+      "short_description": "A reliable and stylish 2021 Nissan Hatchback.",
+      "long_description": "This 2021 Nissan Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $29,077, it's a fantastic deal."
+    },
+    {
+      "id": 64,
+      "make": "Audi",
+      "model": "Coupe",
+      "year": 2022,
+      "price": 13625,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Coupe",
+      "short_description": "A reliable and stylish 2022 Audi Coupe.",
+      "long_description": "This 2022 Audi Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $13,625, it's a fantastic deal."
+    },
+    {
+      "id": 65,
+      "make": "Chevrolet",
+      "model": "Truck",
+      "year": 2013,
+      "price": 34082,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Truck",
+      "short_description": "A reliable and stylish 2013 Chevrolet Truck.",
+      "long_description": "This 2013 Chevrolet Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $34,082, it's a fantastic deal."
+    },
+    {
+      "id": 66,
+      "make": "Toyota",
+      "model": "Sedan",
+      "year": 2011,
+      "price": 14567,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Sedan",
+      "short_description": "A reliable and stylish 2011 Toyota Sedan.",
+      "long_description": "This 2011 Toyota Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $14,567, it's a fantastic deal."
+    },
+    {
+      "id": 67,
+      "make": "Audi",
+      "model": "Minivan",
+      "year": 2022,
+      "price": 19965,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Minivan",
+      "short_description": "A reliable and stylish 2022 Audi Minivan.",
+      "long_description": "This 2022 Audi Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $19,965, it's a fantastic deal."
+    },
+    {
+      "id": 68,
+      "make": "Nissan",
+      "model": "SUV",
+      "year": 2011,
+      "price": 22083,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20SUV",
+      "short_description": "A reliable and stylish 2011 Nissan SUV.",
+      "long_description": "This 2011 Nissan SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $22,083, it's a fantastic deal."
+    },
+    {
+      "id": 69,
+      "make": "Hyundai",
+      "model": "Minivan",
+      "year": 2011,
+      "price": 38886,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Minivan",
+      "short_description": "A reliable and stylish 2011 Hyundai Minivan.",
+      "long_description": "This 2011 Hyundai Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $38,886, it's a fantastic deal."
+    },
+    {
+      "id": 70,
+      "make": "Honda",
+      "model": "Minivan",
+      "year": 2019,
+      "price": 17649,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Minivan",
+      "short_description": "A reliable and stylish 2019 Honda Minivan.",
+      "long_description": "This 2019 Honda Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $17,649, it's a fantastic deal."
+    },
+    {
+      "id": 71,
+      "make": "Audi",
+      "model": "Sports Car",
+      "year": 2019,
+      "price": 27398,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Sports%20Car",
+      "short_description": "A reliable and stylish 2019 Audi Sports Car.",
+      "long_description": "This 2019 Audi Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $27,398, it's a fantastic deal."
+    },
+    {
+      "id": 72,
+      "make": "Hyundai",
+      "model": "Hatchback",
+      "year": 2019,
+      "price": 12642,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback",
+      "short_description": "A reliable and stylish 2019 Hyundai Hatchback.",
+      "long_description": "This 2019 Hyundai Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,642, it's a fantastic deal."
+    },
+    {
+      "id": 73,
+      "make": "Audi",
+      "model": "Minivan",
+      "year": 2018,
+      "price": 39457,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Minivan",
+      "short_description": "A reliable and stylish 2018 Audi Minivan.",
+      "long_description": "This 2018 Audi Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $39,457, it's a fantastic deal."
+    },
+    {
+      "id": 74,
+      "make": "BMW",
+      "model": "Sports Car",
+      "year": 2017,
+      "price": 35375,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20Sports%20Car",
+      "short_description": "A reliable and stylish 2017 BMW Sports Car.",
+      "long_description": "This 2017 BMW Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $35,375, it's a fantastic deal."
+    },
+    {
+      "id": 75,
+      "make": "BMW",
+      "model": "Minivan",
+      "year": 2023,
+      "price": 15279,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20Minivan",
+      "short_description": "A reliable and stylish 2023 BMW Minivan.",
+      "long_description": "This 2023 BMW Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $15,279, it's a fantastic deal."
+    },
+    {
+      "id": 76,
+      "make": "Kia",
+      "model": "Coupe",
+      "year": 2020,
+      "price": 27972,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20Coupe",
+      "short_description": "A reliable and stylish 2020 Kia Coupe.",
+      "long_description": "This 2020 Kia Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $27,972, it's a fantastic deal."
+    },
+    {
+      "id": 77,
+      "make": "Audi",
+      "model": "Convertible",
+      "year": 2020,
+      "price": 38313,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Audi%20Convertible",
+      "short_description": "A reliable and stylish 2020 Audi Convertible.",
+      "long_description": "This 2020 Audi Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $38,313, it's a fantastic deal."
+    },
+    {
+      "id": 78,
+      "make": "Hyundai",
+      "model": "Coupe",
+      "year": 2011,
+      "price": 47767,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Coupe",
+      "short_description": "A reliable and stylish 2011 Hyundai Coupe.",
+      "long_description": "This 2011 Hyundai Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $47,767, it's a fantastic deal."
+    },
+    {
+      "id": 79,
+      "make": "Honda",
+      "model": "Minivan",
+      "year": 2017,
+      "price": 10129,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Minivan",
+      "short_description": "A reliable and stylish 2017 Honda Minivan.",
+      "long_description": "This 2017 Honda Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $10,129, it's a fantastic deal."
+    },
+    {
+      "id": 80,
+      "make": "Nissan",
+      "model": "Sports Car",
+      "year": 2021,
+      "price": 39992,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car",
+      "short_description": "A reliable and stylish 2021 Nissan Sports Car.",
+      "long_description": "This 2021 Nissan Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $39,992, it's a fantastic deal."
+    },
+    {
+      "id": 81,
+      "make": "Chevrolet",
+      "model": "Minivan",
+      "year": 2014,
+      "price": 36743,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan",
+      "short_description": "A reliable and stylish 2014 Chevrolet Minivan.",
+      "long_description": "This 2014 Chevrolet Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $36,743, it's a fantastic deal."
+    },
+    {
+      "id": 82,
+      "make": "Chevrolet",
+      "model": "Convertible",
+      "year": 2022,
+      "price": 11080,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Convertible",
+      "short_description": "A reliable and stylish 2022 Chevrolet Convertible.",
+      "long_description": "This 2022 Chevrolet Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $11,080, it's a fantastic deal."
+    },
+    {
+      "id": 83,
+      "make": "Ford",
+      "model": "Sports Car",
+      "year": 2020,
+      "price": 28066,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Sports%20Car",
+      "short_description": "A reliable and stylish 2020 Ford Sports Car.",
+      "long_description": "This 2020 Ford Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $28,066, it's a fantastic deal."
+    },
+    {
+      "id": 84,
+      "make": "Nissan",
+      "model": "Hatchback",
+      "year": 2011,
+      "price": 18598,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback",
+      "short_description": "A reliable and stylish 2011 Nissan Hatchback.",
+      "long_description": "This 2011 Nissan Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $18,598, it's a fantastic deal."
+    },
+    {
+      "id": 85,
+      "make": "BMW",
+      "model": "Minivan",
+      "year": 2014,
+      "price": 25181,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=BMW%20Minivan",
+      "short_description": "A reliable and stylish 2014 BMW Minivan.",
+      "long_description": "This 2014 BMW Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $25,181, it's a fantastic deal."
+    },
+    {
+      "id": 86,
+      "make": "Kia",
+      "model": "Coupe",
+      "year": 2019,
+      "price": 26171,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20Coupe",
+      "short_description": "A reliable and stylish 2019 Kia Coupe.",
+      "long_description": "This 2019 Kia Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $26,171, it's a fantastic deal."
+    },
+    {
+      "id": 87,
+      "make": "Kia",
+      "model": "SUV",
+      "year": 2015,
+      "price": 45029,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Kia%20SUV",
+      "short_description": "A reliable and stylish 2015 Kia SUV.",
+      "long_description": "This 2015 Kia SUV is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $45,029, it's a fantastic deal."
+    },
+    {
+      "id": 88,
+      "make": "Hyundai",
+      "model": "Sedan",
+      "year": 2017,
+      "price": 42115,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan",
+      "short_description": "A reliable and stylish 2017 Hyundai Sedan.",
+      "long_description": "This 2017 Hyundai Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,115, it's a fantastic deal."
+    },
+    {
+      "id": 89,
+      "make": "Honda",
+      "model": "Sedan",
+      "year": 2017,
+      "price": 43792,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Sedan",
+      "short_description": "A reliable and stylish 2017 Honda Sedan.",
+      "long_description": "This 2017 Honda Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $43,792, it's a fantastic deal."
+    },
+    {
+      "id": 90,
+      "make": "Honda",
+      "model": "Minivan",
+      "year": 2020,
+      "price": 44785,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Minivan",
+      "short_description": "A reliable and stylish 2020 Honda Minivan.",
+      "long_description": "This 2020 Honda Minivan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $44,785, it's a fantastic deal."
+    },
+    {
+      "id": 91,
+      "make": "Honda",
+      "model": "Coupe",
+      "year": 2016,
+      "price": 42859,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Honda%20Coupe",
+      "short_description": "A reliable and stylish 2016 Honda Coupe.",
+      "long_description": "This 2016 Honda Coupe is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $42,859, it's a fantastic deal."
+    },
+    {
+      "id": 92,
+      "make": "Ford",
+      "model": "Sports Car",
+      "year": 2010,
+      "price": 40298,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Sports%20Car",
+      "short_description": "A reliable and stylish 2010 Ford Sports Car.",
+      "long_description": "This 2010 Ford Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $40,298, it's a fantastic deal."
+    },
+    {
+      "id": 93,
+      "make": "Nissan",
+      "model": "Convertible",
+      "year": 2011,
+      "price": 37471,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Convertible",
+      "short_description": "A reliable and stylish 2011 Nissan Convertible.",
+      "long_description": "This 2011 Nissan Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $37,471, it's a fantastic deal."
+    },
+    {
+      "id": 94,
+      "make": "Ford",
+      "model": "Hatchback",
+      "year": 2020,
+      "price": 43518,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Ford%20Hatchback",
+      "short_description": "A reliable and stylish 2020 Ford Hatchback.",
+      "long_description": "This 2020 Ford Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $43,518, it's a fantastic deal."
+    },
+    {
+      "id": 95,
+      "make": "Hyundai",
+      "model": "Sedan",
+      "year": 2020,
+      "price": 28550,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan",
+      "short_description": "A reliable and stylish 2020 Hyundai Sedan.",
+      "long_description": "This 2020 Hyundai Sedan is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $28,550, it's a fantastic deal."
+    },
+    {
+      "id": 96,
+      "make": "Mercedes-Benz",
+      "model": "Convertible",
+      "year": 2022,
+      "price": 27496,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Convertible",
+      "short_description": "A reliable and stylish 2022 Mercedes-Benz Convertible.",
+      "long_description": "This 2022 Mercedes-Benz Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $27,496, it's a fantastic deal."
+    },
+    {
+      "id": 97,
+      "make": "Chevrolet",
+      "model": "Hatchback",
+      "year": 2010,
+      "price": 14754,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback",
+      "short_description": "A reliable and stylish 2010 Chevrolet Hatchback.",
+      "long_description": "This 2010 Chevrolet Hatchback is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $14,754, it's a fantastic deal."
+    },
+    {
+      "id": 98,
+      "make": "Nissan",
+      "model": "Convertible",
+      "year": 2021,
+      "price": 12400,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Convertible",
+      "short_description": "A reliable and stylish 2021 Nissan Convertible.",
+      "long_description": "This 2021 Nissan Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $12,400, it's a fantastic deal."
+    },
+    {
+      "id": 99,
+      "make": "Nissan",
+      "model": "Sports Car",
+      "year": 2012,
+      "price": 40144,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car",
+      "short_description": "A reliable and stylish 2012 Nissan Sports Car.",
+      "long_description": "This 2012 Nissan Sports Car is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $40,144, it's a fantastic deal."
+    },
+    {
+      "id": 100,
+      "make": "Toyota",
+      "model": "Convertible",
+      "year": 2010,
+      "price": 39159,
+      "image_url": "https://placehold.co/600x400/555/FFF?text=Toyota%20Convertible",
+      "short_description": "A reliable and stylish 2010 Toyota Convertible.",
+      "long_description": "This 2010 Toyota Convertible is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $39,159, it's a fantastic deal."
+    }
+  ]
+}

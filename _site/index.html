@@ -1,0 +1,934 @@
+<!-- _includes/layout.njk -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Cars</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">Car Search Demo</a></h1>
+      <p>A simple demo using 11ty and Cloudflare R2</p>
+    </header>
+    <main>
+      
+<div class="search-wrapper">
+  <input type="text" id="searchInput" placeholder="Search for cars (e.g., Toyota, SUV)...">
+</div>
+
+<div class="card-grid" id="carGrid">
+  
+  
+  
+    <a href="/cars/1/" class="card" data-search-term="audi hatchback 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Hatchback" alt="Audi Hatchback">
+      <div class="card-content">
+        <h2>2013 Audi Hatchback</h2>
+        <p>A reliable and stylish 2013 Audi Hatchback.</p>
+        <span class="price">$33,543</span>
+      </div>
+    </a>
+  
+    <a href="/cars/2/" class="card" data-search-term="hyundai sedan 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan" alt="Hyundai Sedan">
+      <div class="card-content">
+        <h2>2016 Hyundai Sedan</h2>
+        <p>A reliable and stylish 2016 Hyundai Sedan.</p>
+        <span class="price">$10,294</span>
+      </div>
+    </a>
+  
+    <a href="/cars/3/" class="card" data-search-term="hyundai hatchback 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback" alt="Hyundai Hatchback">
+      <div class="card-content">
+        <h2>2016 Hyundai Hatchback</h2>
+        <p>A reliable and stylish 2016 Hyundai Hatchback.</p>
+        <span class="price">$42,123</span>
+      </div>
+    </a>
+  
+    <a href="/cars/4/" class="card" data-search-term="chevrolet minivan 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan" alt="Chevrolet Minivan">
+      <div class="card-content">
+        <h2>2018 Chevrolet Minivan</h2>
+        <p>A reliable and stylish 2018 Chevrolet Minivan.</p>
+        <span class="price">$28,705</span>
+      </div>
+    </a>
+  
+    <a href="/cars/5/" class="card" data-search-term="nissan hatchback 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback" alt="Nissan Hatchback">
+      <div class="card-content">
+        <h2>2017 Nissan Hatchback</h2>
+        <p>A reliable and stylish 2017 Nissan Hatchback.</p>
+        <span class="price">$42,543</span>
+      </div>
+    </a>
+  
+    <a href="/cars/6/" class="card" data-search-term="mercedes-benz minivan 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Minivan" alt="Mercedes-Benz Minivan">
+      <div class="card-content">
+        <h2>2011 Mercedes-Benz Minivan</h2>
+        <p>A reliable and stylish 2011 Mercedes-Benz Minivan.</p>
+        <span class="price">$45,723</span>
+      </div>
+    </a>
+  
+    <a href="/cars/7/" class="card" data-search-term="chevrolet hatchback 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback" alt="Chevrolet Hatchback">
+      <div class="card-content">
+        <h2>2019 Chevrolet Hatchback</h2>
+        <p>A reliable and stylish 2019 Chevrolet Hatchback.</p>
+        <span class="price">$13,925</span>
+      </div>
+    </a>
+  
+    <a href="/cars/8/" class="card" data-search-term="toyota coupe 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Coupe" alt="Toyota Coupe">
+      <div class="card-content">
+        <h2>2010 Toyota Coupe</h2>
+        <p>A reliable and stylish 2010 Toyota Coupe.</p>
+        <span class="price">$24,308</span>
+      </div>
+    </a>
+  
+    <a href="/cars/9/" class="card" data-search-term="nissan hatchback 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback" alt="Nissan Hatchback">
+      <div class="card-content">
+        <h2>2016 Nissan Hatchback</h2>
+        <p>A reliable and stylish 2016 Nissan Hatchback.</p>
+        <span class="price">$16,482</span>
+      </div>
+    </a>
+  
+    <a href="/cars/10/" class="card" data-search-term="audi sedan 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Sedan" alt="Audi Sedan">
+      <div class="card-content">
+        <h2>2022 Audi Sedan</h2>
+        <p>A reliable and stylish 2022 Audi Sedan.</p>
+        <span class="price">$27,684</span>
+      </div>
+    </a>
+  
+    <a href="/cars/11/" class="card" data-search-term="bmw coupe 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20Coupe" alt="BMW Coupe">
+      <div class="card-content">
+        <h2>2010 BMW Coupe</h2>
+        <p>A reliable and stylish 2010 BMW Coupe.</p>
+        <span class="price">$21,108</span>
+      </div>
+    </a>
+  
+    <a href="/cars/12/" class="card" data-search-term="toyota sedan 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Sedan" alt="Toyota Sedan">
+      <div class="card-content">
+        <h2>2020 Toyota Sedan</h2>
+        <p>A reliable and stylish 2020 Toyota Sedan.</p>
+        <span class="price">$32,257</span>
+      </div>
+    </a>
+  
+    <a href="/cars/13/" class="card" data-search-term="audi coupe 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Coupe" alt="Audi Coupe">
+      <div class="card-content">
+        <h2>2021 Audi Coupe</h2>
+        <p>A reliable and stylish 2021 Audi Coupe.</p>
+        <span class="price">$36,227</span>
+      </div>
+    </a>
+  
+    <a href="/cars/14/" class="card" data-search-term="nissan suv 2023">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20SUV" alt="Nissan SUV">
+      <div class="card-content">
+        <h2>2023 Nissan SUV</h2>
+        <p>A reliable and stylish 2023 Nissan SUV.</p>
+        <span class="price">$39,679</span>
+      </div>
+    </a>
+  
+    <a href="/cars/15/" class="card" data-search-term="chevrolet hatchback 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback" alt="Chevrolet Hatchback">
+      <div class="card-content">
+        <h2>2013 Chevrolet Hatchback</h2>
+        <p>A reliable and stylish 2013 Chevrolet Hatchback.</p>
+        <span class="price">$38,613</span>
+      </div>
+    </a>
+  
+    <a href="/cars/16/" class="card" data-search-term="mercedes-benz suv 2015">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20SUV" alt="Mercedes-Benz SUV">
+      <div class="card-content">
+        <h2>2015 Mercedes-Benz SUV</h2>
+        <p>A reliable and stylish 2015 Mercedes-Benz SUV.</p>
+        <span class="price">$15,914</span>
+      </div>
+    </a>
+  
+    <a href="/cars/17/" class="card" data-search-term="chevrolet minivan 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan" alt="Chevrolet Minivan">
+      <div class="card-content">
+        <h2>2018 Chevrolet Minivan</h2>
+        <p>A reliable and stylish 2018 Chevrolet Minivan.</p>
+        <span class="price">$47,276</span>
+      </div>
+    </a>
+  
+    <a href="/cars/18/" class="card" data-search-term="toyota truck 2014">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Truck" alt="Toyota Truck">
+      <div class="card-content">
+        <h2>2014 Toyota Truck</h2>
+        <p>A reliable and stylish 2014 Toyota Truck.</p>
+        <span class="price">$43,790</span>
+      </div>
+    </a>
+  
+    <a href="/cars/19/" class="card" data-search-term="nissan sports car 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car" alt="Nissan Sports Car">
+      <div class="card-content">
+        <h2>2013 Nissan Sports Car</h2>
+        <p>A reliable and stylish 2013 Nissan Sports Car.</p>
+        <span class="price">$10,327</span>
+      </div>
+    </a>
+  
+    <a href="/cars/20/" class="card" data-search-term="bmw suv 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20SUV" alt="BMW SUV">
+      <div class="card-content">
+        <h2>2020 BMW SUV</h2>
+        <p>A reliable and stylish 2020 BMW SUV.</p>
+        <span class="price">$41,082</span>
+      </div>
+    </a>
+  
+    <a href="/cars/21/" class="card" data-search-term="toyota sports car 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Sports%20Car" alt="Toyota Sports Car">
+      <div class="card-content">
+        <h2>2021 Toyota Sports Car</h2>
+        <p>A reliable and stylish 2021 Toyota Sports Car.</p>
+        <span class="price">$25,306</span>
+      </div>
+    </a>
+  
+    <a href="/cars/22/" class="card" data-search-term="honda truck 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Truck" alt="Honda Truck">
+      <div class="card-content">
+        <h2>2020 Honda Truck</h2>
+        <p>A reliable and stylish 2020 Honda Truck.</p>
+        <span class="price">$22,629</span>
+      </div>
+    </a>
+  
+    <a href="/cars/23/" class="card" data-search-term="honda sports car 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car" alt="Honda Sports Car">
+      <div class="card-content">
+        <h2>2016 Honda Sports Car</h2>
+        <p>A reliable and stylish 2016 Honda Sports Car.</p>
+        <span class="price">$17,788</span>
+      </div>
+    </a>
+  
+    <a href="/cars/24/" class="card" data-search-term="kia hatchback 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20Hatchback" alt="Kia Hatchback">
+      <div class="card-content">
+        <h2>2018 Kia Hatchback</h2>
+        <p>A reliable and stylish 2018 Kia Hatchback.</p>
+        <span class="price">$28,958</span>
+      </div>
+    </a>
+  
+    <a href="/cars/25/" class="card" data-search-term="ford coupe 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Coupe" alt="Ford Coupe">
+      <div class="card-content">
+        <h2>2013 Ford Coupe</h2>
+        <p>A reliable and stylish 2013 Ford Coupe.</p>
+        <span class="price">$16,097</span>
+      </div>
+    </a>
+  
+    <a href="/cars/26/" class="card" data-search-term="ford coupe 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Coupe" alt="Ford Coupe">
+      <div class="card-content">
+        <h2>2018 Ford Coupe</h2>
+        <p>A reliable and stylish 2018 Ford Coupe.</p>
+        <span class="price">$12,999</span>
+      </div>
+    </a>
+  
+    <a href="/cars/27/" class="card" data-search-term="chevrolet minivan 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan" alt="Chevrolet Minivan">
+      <div class="card-content">
+        <h2>2011 Chevrolet Minivan</h2>
+        <p>A reliable and stylish 2011 Chevrolet Minivan.</p>
+        <span class="price">$12,452</span>
+      </div>
+    </a>
+  
+    <a href="/cars/28/" class="card" data-search-term="ford truck 2012">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Truck" alt="Ford Truck">
+      <div class="card-content">
+        <h2>2012 Ford Truck</h2>
+        <p>A reliable and stylish 2012 Ford Truck.</p>
+        <span class="price">$42,549</span>
+      </div>
+    </a>
+  
+    <a href="/cars/29/" class="card" data-search-term="mercedes-benz truck 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck" alt="Mercedes-Benz Truck">
+      <div class="card-content">
+        <h2>2010 Mercedes-Benz Truck</h2>
+        <p>A reliable and stylish 2010 Mercedes-Benz Truck.</p>
+        <span class="price">$17,376</span>
+      </div>
+    </a>
+  
+    <a href="/cars/30/" class="card" data-search-term="ford coupe 2015">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Coupe" alt="Ford Coupe">
+      <div class="card-content">
+        <h2>2015 Ford Coupe</h2>
+        <p>A reliable and stylish 2015 Ford Coupe.</p>
+        <span class="price">$32,850</span>
+      </div>
+    </a>
+  
+    <a href="/cars/31/" class="card" data-search-term="toyota suv 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20SUV" alt="Toyota SUV">
+      <div class="card-content">
+        <h2>2011 Toyota SUV</h2>
+        <p>A reliable and stylish 2011 Toyota SUV.</p>
+        <span class="price">$10,458</span>
+      </div>
+    </a>
+  
+    <a href="/cars/32/" class="card" data-search-term="chevrolet convertible 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Convertible" alt="Chevrolet Convertible">
+      <div class="card-content">
+        <h2>2020 Chevrolet Convertible</h2>
+        <p>A reliable and stylish 2020 Chevrolet Convertible.</p>
+        <span class="price">$49,034</span>
+      </div>
+    </a>
+  
+    <a href="/cars/33/" class="card" data-search-term="hyundai convertible 2023">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible" alt="Hyundai Convertible">
+      <div class="card-content">
+        <h2>2023 Hyundai Convertible</h2>
+        <p>A reliable and stylish 2023 Hyundai Convertible.</p>
+        <span class="price">$33,988</span>
+      </div>
+    </a>
+  
+    <a href="/cars/34/" class="card" data-search-term="mercedes-benz convertible 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Convertible" alt="Mercedes-Benz Convertible">
+      <div class="card-content">
+        <h2>2022 Mercedes-Benz Convertible</h2>
+        <p>A reliable and stylish 2022 Mercedes-Benz Convertible.</p>
+        <span class="price">$14,683</span>
+      </div>
+    </a>
+  
+    <a href="/cars/35/" class="card" data-search-term="chevrolet minivan 2014">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan" alt="Chevrolet Minivan">
+      <div class="card-content">
+        <h2>2014 Chevrolet Minivan</h2>
+        <p>A reliable and stylish 2014 Chevrolet Minivan.</p>
+        <span class="price">$42,296</span>
+      </div>
+    </a>
+  
+    <a href="/cars/36/" class="card" data-search-term="ford convertible 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Convertible" alt="Ford Convertible">
+      <div class="card-content">
+        <h2>2016 Ford Convertible</h2>
+        <p>A reliable and stylish 2016 Ford Convertible.</p>
+        <span class="price">$33,797</span>
+      </div>
+    </a>
+  
+    <a href="/cars/37/" class="card" data-search-term="mercedes-benz truck 2023">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck" alt="Mercedes-Benz Truck">
+      <div class="card-content">
+        <h2>2023 Mercedes-Benz Truck</h2>
+        <p>A reliable and stylish 2023 Mercedes-Benz Truck.</p>
+        <span class="price">$31,341</span>
+      </div>
+    </a>
+  
+    <a href="/cars/38/" class="card" data-search-term="audi truck 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Truck" alt="Audi Truck">
+      <div class="card-content">
+        <h2>2010 Audi Truck</h2>
+        <p>A reliable and stylish 2010 Audi Truck.</p>
+        <span class="price">$23,044</span>
+      </div>
+    </a>
+  
+    <a href="/cars/39/" class="card" data-search-term="honda convertible 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Convertible" alt="Honda Convertible">
+      <div class="card-content">
+        <h2>2013 Honda Convertible</h2>
+        <p>A reliable and stylish 2013 Honda Convertible.</p>
+        <span class="price">$36,560</span>
+      </div>
+    </a>
+  
+    <a href="/cars/40/" class="card" data-search-term="chevrolet sports car 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sports%20Car" alt="Chevrolet Sports Car">
+      <div class="card-content">
+        <h2>2022 Chevrolet Sports Car</h2>
+        <p>A reliable and stylish 2022 Chevrolet Sports Car.</p>
+        <span class="price">$26,260</span>
+      </div>
+    </a>
+  
+    <a href="/cars/41/" class="card" data-search-term="audi convertible 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Convertible" alt="Audi Convertible">
+      <div class="card-content">
+        <h2>2019 Audi Convertible</h2>
+        <p>A reliable and stylish 2019 Audi Convertible.</p>
+        <span class="price">$47,961</span>
+      </div>
+    </a>
+  
+    <a href="/cars/42/" class="card" data-search-term="kia suv 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20SUV" alt="Kia SUV">
+      <div class="card-content">
+        <h2>2013 Kia SUV</h2>
+        <p>A reliable and stylish 2013 Kia SUV.</p>
+        <span class="price">$10,492</span>
+      </div>
+    </a>
+  
+    <a href="/cars/43/" class="card" data-search-term="mercedes-benz sedan 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Sedan" alt="Mercedes-Benz Sedan">
+      <div class="card-content">
+        <h2>2011 Mercedes-Benz Sedan</h2>
+        <p>A reliable and stylish 2011 Mercedes-Benz Sedan.</p>
+        <span class="price">$12,655</span>
+      </div>
+    </a>
+  
+    <a href="/cars/44/" class="card" data-search-term="toyota sports car 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Sports%20Car" alt="Toyota Sports Car">
+      <div class="card-content">
+        <h2>2017 Toyota Sports Car</h2>
+        <p>A reliable and stylish 2017 Toyota Sports Car.</p>
+        <span class="price">$43,147</span>
+      </div>
+    </a>
+  
+    <a href="/cars/45/" class="card" data-search-term="mercedes-benz coupe 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Coupe" alt="Mercedes-Benz Coupe">
+      <div class="card-content">
+        <h2>2022 Mercedes-Benz Coupe</h2>
+        <p>A reliable and stylish 2022 Mercedes-Benz Coupe.</p>
+        <span class="price">$11,377</span>
+      </div>
+    </a>
+  
+    <a href="/cars/46/" class="card" data-search-term="chevrolet coupe 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Coupe" alt="Chevrolet Coupe">
+      <div class="card-content">
+        <h2>2017 Chevrolet Coupe</h2>
+        <p>A reliable and stylish 2017 Chevrolet Coupe.</p>
+        <span class="price">$14,293</span>
+      </div>
+    </a>
+  
+    <a href="/cars/47/" class="card" data-search-term="mercedes-benz truck 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Truck" alt="Mercedes-Benz Truck">
+      <div class="card-content">
+        <h2>2020 Mercedes-Benz Truck</h2>
+        <p>A reliable and stylish 2020 Mercedes-Benz Truck.</p>
+        <span class="price">$36,227</span>
+      </div>
+    </a>
+  
+    <a href="/cars/48/" class="card" data-search-term="honda sports car 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car" alt="Honda Sports Car">
+      <div class="card-content">
+        <h2>2021 Honda Sports Car</h2>
+        <p>A reliable and stylish 2021 Honda Sports Car.</p>
+        <span class="price">$26,213</span>
+      </div>
+    </a>
+  
+    <a href="/cars/49/" class="card" data-search-term="chevrolet sedan 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sedan" alt="Chevrolet Sedan">
+      <div class="card-content">
+        <h2>2021 Chevrolet Sedan</h2>
+        <p>A reliable and stylish 2021 Chevrolet Sedan.</p>
+        <span class="price">$28,476</span>
+      </div>
+    </a>
+  
+    <a href="/cars/50/" class="card" data-search-term="bmw sedan 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20Sedan" alt="BMW Sedan">
+      <div class="card-content">
+        <h2>2010 BMW Sedan</h2>
+        <p>A reliable and stylish 2010 BMW Sedan.</p>
+        <span class="price">$46,282</span>
+      </div>
+    </a>
+  
+    <a href="/cars/51/" class="card" data-search-term="chevrolet hatchback 2014">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback" alt="Chevrolet Hatchback">
+      <div class="card-content">
+        <h2>2014 Chevrolet Hatchback</h2>
+        <p>A reliable and stylish 2014 Chevrolet Hatchback.</p>
+        <span class="price">$14,702</span>
+      </div>
+    </a>
+  
+    <a href="/cars/52/" class="card" data-search-term="hyundai coupe 2012">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Coupe" alt="Hyundai Coupe">
+      <div class="card-content">
+        <h2>2012 Hyundai Coupe</h2>
+        <p>A reliable and stylish 2012 Hyundai Coupe.</p>
+        <span class="price">$41,233</span>
+      </div>
+    </a>
+  
+    <a href="/cars/53/" class="card" data-search-term="ford convertible 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Convertible" alt="Ford Convertible">
+      <div class="card-content">
+        <h2>2021 Ford Convertible</h2>
+        <p>A reliable and stylish 2021 Ford Convertible.</p>
+        <span class="price">$11,178</span>
+      </div>
+    </a>
+  
+    <a href="/cars/54/" class="card" data-search-term="honda sports car 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Sports%20Car" alt="Honda Sports Car">
+      <div class="card-content">
+        <h2>2011 Honda Sports Car</h2>
+        <p>A reliable and stylish 2011 Honda Sports Car.</p>
+        <span class="price">$27,536</span>
+      </div>
+    </a>
+  
+    <a href="/cars/55/" class="card" data-search-term="ford truck 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Truck" alt="Ford Truck">
+      <div class="card-content">
+        <h2>2022 Ford Truck</h2>
+        <p>A reliable and stylish 2022 Ford Truck.</p>
+        <span class="price">$44,950</span>
+      </div>
+    </a>
+  
+    <a href="/cars/56/" class="card" data-search-term="kia truck 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20Truck" alt="Kia Truck">
+      <div class="card-content">
+        <h2>2010 Kia Truck</h2>
+        <p>A reliable and stylish 2010 Kia Truck.</p>
+        <span class="price">$38,427</span>
+      </div>
+    </a>
+  
+    <a href="/cars/57/" class="card" data-search-term="kia minivan 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20Minivan" alt="Kia Minivan">
+      <div class="card-content">
+        <h2>2018 Kia Minivan</h2>
+        <p>A reliable and stylish 2018 Kia Minivan.</p>
+        <span class="price">$12,257</span>
+      </div>
+    </a>
+  
+    <a href="/cars/58/" class="card" data-search-term="chevrolet sports car 2012">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Sports%20Car" alt="Chevrolet Sports Car">
+      <div class="card-content">
+        <h2>2012 Chevrolet Sports Car</h2>
+        <p>A reliable and stylish 2012 Chevrolet Sports Car.</p>
+        <span class="price">$25,117</span>
+      </div>
+    </a>
+  
+    <a href="/cars/59/" class="card" data-search-term="hyundai convertible 2015">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible" alt="Hyundai Convertible">
+      <div class="card-content">
+        <h2>2015 Hyundai Convertible</h2>
+        <p>A reliable and stylish 2015 Hyundai Convertible.</p>
+        <span class="price">$40,137</span>
+      </div>
+    </a>
+  
+    <a href="/cars/60/" class="card" data-search-term="hyundai convertible 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible" alt="Hyundai Convertible">
+      <div class="card-content">
+        <h2>2021 Hyundai Convertible</h2>
+        <p>A reliable and stylish 2021 Hyundai Convertible.</p>
+        <span class="price">$38,424</span>
+      </div>
+    </a>
+  
+    <a href="/cars/61/" class="card" data-search-term="hyundai hatchback 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback" alt="Hyundai Hatchback">
+      <div class="card-content">
+        <h2>2011 Hyundai Hatchback</h2>
+        <p>A reliable and stylish 2011 Hyundai Hatchback.</p>
+        <span class="price">$33,448</span>
+      </div>
+    </a>
+  
+    <a href="/cars/62/" class="card" data-search-term="hyundai convertible 2012">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Convertible" alt="Hyundai Convertible">
+      <div class="card-content">
+        <h2>2012 Hyundai Convertible</h2>
+        <p>A reliable and stylish 2012 Hyundai Convertible.</p>
+        <span class="price">$26,769</span>
+      </div>
+    </a>
+  
+    <a href="/cars/63/" class="card" data-search-term="nissan hatchback 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback" alt="Nissan Hatchback">
+      <div class="card-content">
+        <h2>2021 Nissan Hatchback</h2>
+        <p>A reliable and stylish 2021 Nissan Hatchback.</p>
+        <span class="price">$29,077</span>
+      </div>
+    </a>
+  
+    <a href="/cars/64/" class="card" data-search-term="audi coupe 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Coupe" alt="Audi Coupe">
+      <div class="card-content">
+        <h2>2022 Audi Coupe</h2>
+        <p>A reliable and stylish 2022 Audi Coupe.</p>
+        <span class="price">$13,625</span>
+      </div>
+    </a>
+  
+    <a href="/cars/65/" class="card" data-search-term="chevrolet truck 2013">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Truck" alt="Chevrolet Truck">
+      <div class="card-content">
+        <h2>2013 Chevrolet Truck</h2>
+        <p>A reliable and stylish 2013 Chevrolet Truck.</p>
+        <span class="price">$34,082</span>
+      </div>
+    </a>
+  
+    <a href="/cars/66/" class="card" data-search-term="toyota sedan 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Sedan" alt="Toyota Sedan">
+      <div class="card-content">
+        <h2>2011 Toyota Sedan</h2>
+        <p>A reliable and stylish 2011 Toyota Sedan.</p>
+        <span class="price">$14,567</span>
+      </div>
+    </a>
+  
+    <a href="/cars/67/" class="card" data-search-term="audi minivan 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Minivan" alt="Audi Minivan">
+      <div class="card-content">
+        <h2>2022 Audi Minivan</h2>
+        <p>A reliable and stylish 2022 Audi Minivan.</p>
+        <span class="price">$19,965</span>
+      </div>
+    </a>
+  
+    <a href="/cars/68/" class="card" data-search-term="nissan suv 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20SUV" alt="Nissan SUV">
+      <div class="card-content">
+        <h2>2011 Nissan SUV</h2>
+        <p>A reliable and stylish 2011 Nissan SUV.</p>
+        <span class="price">$22,083</span>
+      </div>
+    </a>
+  
+    <a href="/cars/69/" class="card" data-search-term="hyundai minivan 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Minivan" alt="Hyundai Minivan">
+      <div class="card-content">
+        <h2>2011 Hyundai Minivan</h2>
+        <p>A reliable and stylish 2011 Hyundai Minivan.</p>
+        <span class="price">$38,886</span>
+      </div>
+    </a>
+  
+    <a href="/cars/70/" class="card" data-search-term="honda minivan 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Minivan" alt="Honda Minivan">
+      <div class="card-content">
+        <h2>2019 Honda Minivan</h2>
+        <p>A reliable and stylish 2019 Honda Minivan.</p>
+        <span class="price">$17,649</span>
+      </div>
+    </a>
+  
+    <a href="/cars/71/" class="card" data-search-term="audi sports car 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Sports%20Car" alt="Audi Sports Car">
+      <div class="card-content">
+        <h2>2019 Audi Sports Car</h2>
+        <p>A reliable and stylish 2019 Audi Sports Car.</p>
+        <span class="price">$27,398</span>
+      </div>
+    </a>
+  
+    <a href="/cars/72/" class="card" data-search-term="hyundai hatchback 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Hatchback" alt="Hyundai Hatchback">
+      <div class="card-content">
+        <h2>2019 Hyundai Hatchback</h2>
+        <p>A reliable and stylish 2019 Hyundai Hatchback.</p>
+        <span class="price">$12,642</span>
+      </div>
+    </a>
+  
+    <a href="/cars/73/" class="card" data-search-term="audi minivan 2018">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Minivan" alt="Audi Minivan">
+      <div class="card-content">
+        <h2>2018 Audi Minivan</h2>
+        <p>A reliable and stylish 2018 Audi Minivan.</p>
+        <span class="price">$39,457</span>
+      </div>
+    </a>
+  
+    <a href="/cars/74/" class="card" data-search-term="bmw sports car 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20Sports%20Car" alt="BMW Sports Car">
+      <div class="card-content">
+        <h2>2017 BMW Sports Car</h2>
+        <p>A reliable and stylish 2017 BMW Sports Car.</p>
+        <span class="price">$35,375</span>
+      </div>
+    </a>
+  
+    <a href="/cars/75/" class="card" data-search-term="bmw minivan 2023">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20Minivan" alt="BMW Minivan">
+      <div class="card-content">
+        <h2>2023 BMW Minivan</h2>
+        <p>A reliable and stylish 2023 BMW Minivan.</p>
+        <span class="price">$15,279</span>
+      </div>
+    </a>
+  
+    <a href="/cars/76/" class="card" data-search-term="kia coupe 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20Coupe" alt="Kia Coupe">
+      <div class="card-content">
+        <h2>2020 Kia Coupe</h2>
+        <p>A reliable and stylish 2020 Kia Coupe.</p>
+        <span class="price">$27,972</span>
+      </div>
+    </a>
+  
+    <a href="/cars/77/" class="card" data-search-term="audi convertible 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Audi%20Convertible" alt="Audi Convertible">
+      <div class="card-content">
+        <h2>2020 Audi Convertible</h2>
+        <p>A reliable and stylish 2020 Audi Convertible.</p>
+        <span class="price">$38,313</span>
+      </div>
+    </a>
+  
+    <a href="/cars/78/" class="card" data-search-term="hyundai coupe 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Coupe" alt="Hyundai Coupe">
+      <div class="card-content">
+        <h2>2011 Hyundai Coupe</h2>
+        <p>A reliable and stylish 2011 Hyundai Coupe.</p>
+        <span class="price">$47,767</span>
+      </div>
+    </a>
+  
+    <a href="/cars/79/" class="card" data-search-term="honda minivan 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Minivan" alt="Honda Minivan">
+      <div class="card-content">
+        <h2>2017 Honda Minivan</h2>
+        <p>A reliable and stylish 2017 Honda Minivan.</p>
+        <span class="price">$10,129</span>
+      </div>
+    </a>
+  
+    <a href="/cars/80/" class="card" data-search-term="nissan sports car 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car" alt="Nissan Sports Car">
+      <div class="card-content">
+        <h2>2021 Nissan Sports Car</h2>
+        <p>A reliable and stylish 2021 Nissan Sports Car.</p>
+        <span class="price">$39,992</span>
+      </div>
+    </a>
+  
+    <a href="/cars/81/" class="card" data-search-term="chevrolet minivan 2014">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Minivan" alt="Chevrolet Minivan">
+      <div class="card-content">
+        <h2>2014 Chevrolet Minivan</h2>
+        <p>A reliable and stylish 2014 Chevrolet Minivan.</p>
+        <span class="price">$36,743</span>
+      </div>
+    </a>
+  
+    <a href="/cars/82/" class="card" data-search-term="chevrolet convertible 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Convertible" alt="Chevrolet Convertible">
+      <div class="card-content">
+        <h2>2022 Chevrolet Convertible</h2>
+        <p>A reliable and stylish 2022 Chevrolet Convertible.</p>
+        <span class="price">$11,080</span>
+      </div>
+    </a>
+  
+    <a href="/cars/83/" class="card" data-search-term="ford sports car 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Sports%20Car" alt="Ford Sports Car">
+      <div class="card-content">
+        <h2>2020 Ford Sports Car</h2>
+        <p>A reliable and stylish 2020 Ford Sports Car.</p>
+        <span class="price">$28,066</span>
+      </div>
+    </a>
+  
+    <a href="/cars/84/" class="card" data-search-term="nissan hatchback 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Hatchback" alt="Nissan Hatchback">
+      <div class="card-content">
+        <h2>2011 Nissan Hatchback</h2>
+        <p>A reliable and stylish 2011 Nissan Hatchback.</p>
+        <span class="price">$18,598</span>
+      </div>
+    </a>
+  
+    <a href="/cars/85/" class="card" data-search-term="bmw minivan 2014">
+      <img src="https://placehold.co/600x400/555/FFF?text=BMW%20Minivan" alt="BMW Minivan">
+      <div class="card-content">
+        <h2>2014 BMW Minivan</h2>
+        <p>A reliable and stylish 2014 BMW Minivan.</p>
+        <span class="price">$25,181</span>
+      </div>
+    </a>
+  
+    <a href="/cars/86/" class="card" data-search-term="kia coupe 2019">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20Coupe" alt="Kia Coupe">
+      <div class="card-content">
+        <h2>2019 Kia Coupe</h2>
+        <p>A reliable and stylish 2019 Kia Coupe.</p>
+        <span class="price">$26,171</span>
+      </div>
+    </a>
+  
+    <a href="/cars/87/" class="card" data-search-term="kia suv 2015">
+      <img src="https://placehold.co/600x400/555/FFF?text=Kia%20SUV" alt="Kia SUV">
+      <div class="card-content">
+        <h2>2015 Kia SUV</h2>
+        <p>A reliable and stylish 2015 Kia SUV.</p>
+        <span class="price">$45,029</span>
+      </div>
+    </a>
+  
+    <a href="/cars/88/" class="card" data-search-term="hyundai sedan 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan" alt="Hyundai Sedan">
+      <div class="card-content">
+        <h2>2017 Hyundai Sedan</h2>
+        <p>A reliable and stylish 2017 Hyundai Sedan.</p>
+        <span class="price">$42,115</span>
+      </div>
+    </a>
+  
+    <a href="/cars/89/" class="card" data-search-term="honda sedan 2017">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Sedan" alt="Honda Sedan">
+      <div class="card-content">
+        <h2>2017 Honda Sedan</h2>
+        <p>A reliable and stylish 2017 Honda Sedan.</p>
+        <span class="price">$43,792</span>
+      </div>
+    </a>
+  
+    <a href="/cars/90/" class="card" data-search-term="honda minivan 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Minivan" alt="Honda Minivan">
+      <div class="card-content">
+        <h2>2020 Honda Minivan</h2>
+        <p>A reliable and stylish 2020 Honda Minivan.</p>
+        <span class="price">$44,785</span>
+      </div>
+    </a>
+  
+    <a href="/cars/91/" class="card" data-search-term="honda coupe 2016">
+      <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Coupe" alt="Honda Coupe">
+      <div class="card-content">
+        <h2>2016 Honda Coupe</h2>
+        <p>A reliable and stylish 2016 Honda Coupe.</p>
+        <span class="price">$42,859</span>
+      </div>
+    </a>
+  
+    <a href="/cars/92/" class="card" data-search-term="ford sports car 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Sports%20Car" alt="Ford Sports Car">
+      <div class="card-content">
+        <h2>2010 Ford Sports Car</h2>
+        <p>A reliable and stylish 2010 Ford Sports Car.</p>
+        <span class="price">$40,298</span>
+      </div>
+    </a>
+  
+    <a href="/cars/93/" class="card" data-search-term="nissan convertible 2011">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Convertible" alt="Nissan Convertible">
+      <div class="card-content">
+        <h2>2011 Nissan Convertible</h2>
+        <p>A reliable and stylish 2011 Nissan Convertible.</p>
+        <span class="price">$37,471</span>
+      </div>
+    </a>
+  
+    <a href="/cars/94/" class="card" data-search-term="ford hatchback 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Ford%20Hatchback" alt="Ford Hatchback">
+      <div class="card-content">
+        <h2>2020 Ford Hatchback</h2>
+        <p>A reliable and stylish 2020 Ford Hatchback.</p>
+        <span class="price">$43,518</span>
+      </div>
+    </a>
+  
+    <a href="/cars/95/" class="card" data-search-term="hyundai sedan 2020">
+      <img src="https://placehold.co/600x400/555/FFF?text=Hyundai%20Sedan" alt="Hyundai Sedan">
+      <div class="card-content">
+        <h2>2020 Hyundai Sedan</h2>
+        <p>A reliable and stylish 2020 Hyundai Sedan.</p>
+        <span class="price">$28,550</span>
+      </div>
+    </a>
+  
+    <a href="/cars/96/" class="card" data-search-term="mercedes-benz convertible 2022">
+      <img src="https://placehold.co/600x400/555/FFF?text=Mercedes-Benz%20Convertible" alt="Mercedes-Benz Convertible">
+      <div class="card-content">
+        <h2>2022 Mercedes-Benz Convertible</h2>
+        <p>A reliable and stylish 2022 Mercedes-Benz Convertible.</p>
+        <span class="price">$27,496</span>
+      </div>
+    </a>
+  
+    <a href="/cars/97/" class="card" data-search-term="chevrolet hatchback 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Chevrolet%20Hatchback" alt="Chevrolet Hatchback">
+      <div class="card-content">
+        <h2>2010 Chevrolet Hatchback</h2>
+        <p>A reliable and stylish 2010 Chevrolet Hatchback.</p>
+        <span class="price">$14,754</span>
+      </div>
+    </a>
+  
+    <a href="/cars/98/" class="card" data-search-term="nissan convertible 2021">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Convertible" alt="Nissan Convertible">
+      <div class="card-content">
+        <h2>2021 Nissan Convertible</h2>
+        <p>A reliable and stylish 2021 Nissan Convertible.</p>
+        <span class="price">$12,400</span>
+      </div>
+    </a>
+  
+    <a href="/cars/99/" class="card" data-search-term="nissan sports car 2012">
+      <img src="https://placehold.co/600x400/555/FFF?text=Nissan%20Sports%20Car" alt="Nissan Sports Car">
+      <div class="card-content">
+        <h2>2012 Nissan Sports Car</h2>
+        <p>A reliable and stylish 2012 Nissan Sports Car.</p>
+        <span class="price">$40,144</span>
+      </div>
+    </a>
+  
+    <a href="/cars/100/" class="card" data-search-term="toyota convertible 2010">
+      <img src="https://placehold.co/600x400/555/FFF?text=Toyota%20Convertible" alt="Toyota Convertible">
+      <div class="card-content">
+        <h2>2010 Toyota Convertible</h2>
+        <p>A reliable and stylish 2010 Toyota Convertible.</p>
+        <span class="price">$39,159</span>
+      </div>
+    </a>
+  
+</div>
+    </main>
+    <footer>
+      <p>Built with Eleventy & ❤️</p>
+    </footer>
+  </div>
+  <script src="/js/search.js"></script>
+</body>
+</html>

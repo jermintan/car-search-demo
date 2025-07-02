@@ -1,0 +1,34 @@
+<!-- _includes/layout.njk -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ car.year }} {{ car.make }} {{ car.model }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">Car Search Demo</a></h1>
+      <p>A simple demo using 11ty and Cloudflare R2</p>
+    </header>
+    <main>
+      
+<div class="car-detail">
+  <img src="https://placehold.co/600x400/555/FFF?text=Honda%20Truck" alt="Honda Truck">
+  <div class="car-info">
+    <h1>2020 Honda Truck</h1>
+    <span class="price">$22,629</span>
+    <p>This 2020 Honda Truck is in excellent condition and is perfect for both city driving and long road trips. It comes with a full service history and has been meticulously maintained. With a price of $22,629, it&#39;s a fantastic deal.</p>
+    <a href="/" class="back-button">← Back to all cars</a>
+  </div>
+</div>
+    </main>
+    <footer>
+      <p>Built with Eleventy & ❤️</p>
+    </footer>
+  </div>
+  <script src="/js/search.js"></script>
+</body>
+</html>

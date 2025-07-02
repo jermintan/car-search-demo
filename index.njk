@@ -1,0 +1,23 @@
+---
+title: "All Cars"
+layout: "layout.njk"
+---
+
+<div class="search-wrapper">
+  <input type="text" id="searchInput" placeholder="Search for cars (e.g., Toyota, SUV)...">
+</div>
+
+<div class="card-grid" id="carGrid">
+  {# Loop through our car data from _data/cars.json #}
+  {# The data is available at cars.cars because our JSON has a root "cars" key #}
+  {% for car in cars.cars %}
+    <a href="/cars/{{ car.id }}/" class="card" data-search-term="{{ car.make | lower }} {{ car.model | lower }} {{ car.year }}">
+      <img src="{{ car.image_url }}" alt="{{ car.make }} {{ car.model }}">
+      <div class="card-content">
+        <h2>{{ car.year }} {{ car.make }} {{ car.model }}</h2>
+        <p>{{ car.short_description }}</p>
+        <span class="price">${{ car.price.toLocaleString() }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>
